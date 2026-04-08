@@ -9,7 +9,7 @@ This repo contains:
 - `.github/workflows/pages.yml`: deploys the site to GitHub Pages
 - `.github/workflows/ghcr.yml`: builds and pushes image to GHCR (`ghcr.io/<owner>/<repo>`)
 
-## Learning path for a 10th grader
+## Learning path
 1. Open `index.html` and learn core tags: `<html>`, `<head>`, `<body>`, headings, lists, links.
 2. Open `index-css-level-1.html` and see how CSS changes layout basics.
 3. Open `index-css-level-2.html` for classes and box styling.
