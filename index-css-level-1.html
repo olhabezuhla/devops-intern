@@ -10,22 +10,39 @@
    display: flex;
    align-items: center;
    }
-
     body {
       font-family: Arial, sans-serif;
       max-width: 480px;
       margin: 32px auto;
       padding: 0 16px;
-      border: 3px solid rgb(248, 229, 126); 
-       background: #ffffff;
-       border-radius: 12px;
+      border: 3px solid rgb(246, 223, 93); 
+      background: #ffffff;
+      border-radius: 12px;
       
     }
+
+    .links a {
+      display: block;
+      text-decoration: none;
+      color: #111827;
+      background: #fffcf1;
+      border: 2px solid #faf4d4;
+      border-radius: 8px;
+      padding: 10px;
+      margin: 10px 0;
+      text-align: center;
+    }
+
 
     a {
       display: block;
       margin: 8px 0;
     }
+    
+    .links a:hover {
+      background: #fefbc6;
+    }
+    
   </style>
 </head>
 <body>
@@ -36,8 +53,8 @@
     <p>studing in Leibniz Gymnasium, 10class </p>
   </header>
 
-  <main class="center">
-    <h2>My Links</h2>
+  <main class="links">
+    
     <a href="https://olhabezuhla.github.io" target="_blank" rel="noreferrer">Website</a>
     <a href="https://github.com/olhabezuhla" target="_blank" rel="noreferrer">GitHub</a>
     <a href="mailto:ohla.bezuhla@dextradata.com">Email</a>
