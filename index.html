@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Your Name | Links</title>
+  <meta name="description" content="A minimal link page template" />
+  <style>
+    :root {
+      --bg: #f5f7fb;
+      --card: #ffffff;
+      --text: #1a1d29;
+      --muted: #5a6275;
+      --accent: #0f62fe;
+      --accent-hover: #0043ce;
+      --border: #dce1ea;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at top left, #e8f0ff 0%, transparent 35%),
+        radial-gradient(circle at bottom right, #eef9f2 0%, transparent 35%),
+        var(--bg);
+      display: grid;
+      place-items: center;
+      padding: 24px;
+    }
+
+    .card {
+      width: 100%;
+      max-width: 420px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 28px 22px;
+      box-shadow: 0 10px 30px rgba(17, 24, 39, 0.08);
+    }
+
+    .avatar {
+      width: 88px;
+      height: 88px;
+      border-radius: 50%;
+      margin: 0 auto 14px;
+      display: grid;
+      place-items: center;
+      background: #d9e8ff;
+      color: #24407a;
+      font-weight: 700;
+      font-size: 28px;
+    }
+
+    h1 {
+      margin: 0;
+      text-align: center;
+      font-size: 1.35rem;
+    }
+
+    p {
+      margin: 8px 0 20px;
+      text-align: center;
+      color: var(--muted);
+    }
+
+    .links {
+      display: grid;
+      gap: 10px;
+    }
+
+    .link {
+      text-decoration: none;
+      display: block;
+      text-align: center;
+      padding: 12px 14px;
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      color: var(--text);
+      background: #fdfdff;
+      font-weight: 600;
+      transition: transform .12s ease, border-color .12s ease, background .12s ease;
+    }
+
+    .link:hover {
+      transform: translateY(-1px);
+      border-color: var(--accent);
+      background: #f4f8ff;
+    }
+
+    .link.primary {
+      background: var(--accent);
+      color: #fff;
+      border-color: var(--accent);
+    }
+
+    .link.primary:hover {
+      background: var(--accent-hover);
+      border-color: var(--accent-hover);
+    }
+
+    footer {
+      margin-top: 16px;
+      text-align: center;
+      font-size: 12px;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <div class="avatar">YN</div>
+    <h1>Your Name</h1>
+    <p>Short bio goes here. Replace links below.</p>
+
+    <section class="links" aria-label="Social links">
+      <a class="link primary" href="https://example.com" target="_blank" rel="noreferrer">My Website</a>
+      <a class="link" href="https://github.com/your-handle" target="_blank" rel="noreferrer">GitHub</a>
+      <a class="link" href="https://linkedin.com/in/your-handle" target="_blank" rel="noreferrer">LinkedIn</a>
+      <a class="link" href="https://x.com/your-handle" target="_blank" rel="noreferrer">X / Twitter</a>
+      <a class="link" href="mailto:you@example.com">Email</a>
+    </section>
+
+    <footer>Built with simple static HTML.</footer>
+  </main>
+</body>
+</html>
