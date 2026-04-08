@@ -5,11 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Link Page - CSS Level 1</title>
   <style>
+  .center {
+   flex-direction: column;
+   display: flex;
+   align-items: center;
+    border: 3px solid rgb(201, 246, 40); 
+   }
+
     body {
       font-family: Arial, sans-serif;
       max-width: 480px;
       margin: 32px auto;
       padding: 0 16px;
+      
     }
 
     a {
@@ -19,13 +27,14 @@
   </style>
 </head>
 <body>
-  <header>
+
+  <header class="center">
     <h1>Olha Bezuhla</h1>
     <p>Dortmund, Germany </p>
     <p>studing in Leibniz Gymnasium, 10class </p>
   </header>
 
-  <main>
+  <main class="center">
     <h2>My Links</h2>
     <a href="https://olhabezuhla.github.io" target="_blank" rel="noreferrer">Website</a>
     <a href="https://github.com/olhabezuhla" target="_blank" rel="noreferrer">GitHub</a>
